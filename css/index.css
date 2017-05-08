@@ -1,0 +1,46 @@
+
+body {
+	width: 900px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+header{
+    height: 80px;
+    padding-left: 10px;
+    background-color: #6dc62c;
+    color:white;
+    
+}
+#logo{
+    float:left;
+}
+nav{
+    float:right;
+}
+nav li{
+    float:left;
+	list-style-type: none;
+	text-decoration: none;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	margin: 3px;
+	background-color: white;
+	color: green;
+}
+nav li:hover{
+    background-color: green;
+	color: white;
+}
+.menu{
+    text-align: center;
+}
+
+#form{
+    width:300px;
+    border:1px solid black;
+}
+footer{
+    height: 80px;
+    background-color: #6dc62c;
+}
