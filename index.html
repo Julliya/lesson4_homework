@@ -1,83 +1,114 @@
 <!doctype html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
-    <title>eco-life</title>
-</head>
-<body>
-    <header>
-        <h1 id="logo">Живіть ЕКО-логічно</h1>
-        <nav>
-        <ul>
-            <li><a href="#">Поради</a></li>
-            <li><a href="#">Цікаві відкриття</a></li>
-            <li><a href="#">Корисні посилання</a></li>
-            <li><a href="#">Контакти</a></li>
-        </ul>
-    </nav>
-    </header>
-    
-    <main>
-        <img src="img/jumbotron1.jpg" alt="Природа">
-        <section id="text">
-        <p > Загальний опис проблем.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, 
-        vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.
-        Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. 
-        Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu.</p>
-        </section>
-        <aside>
-            <h3 class='menu'>Корисні посилання:</h3>
-            <a href="#">Куди здати відходи у Львові</a><br><br>
-            <a href="#">Найкращі екологічні дома світу</a><br><br>
-            <a href="#">Екопоселення України</a><br><br>
-        </aside>
-        <hr class="no_flows">
-        <h2 class="menu">Поради</h2>
-        <hr>
-        <div class="advice">
-            <img class="icons" src="img/icon1.png" alt="bike">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
-        </div>
-        <div class="advice">
-            <img class="icons" src="img/icon1.png" alt="bike">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
-        </div>
-        <div class="advice">
-            <img class="icons" src="img/icon1.png" alt="bike">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
-        </div>
-        <hr class="no_flows">
-        <h2 class="menu">Цікаві відкриття</h2>
-        <hr>
-        <img class="pict"src="img/worm.png" alt="worm">
-        <div class="collection-text">
-			<h3>Восковий хробак, харчується поліетиленом</h3>
-			<button>Читати далі...</button>
-		</div>
-        <hr class="no_flows">
-        <h2 class="menu">Контакти</h2>
-        <hr>
-        <form id="form" method="POST" action="https://formspree.io/julli.babenko@gmail.com">
-            <p class="menu">Зворотній зв'язок</p>
-            <br>
-    	    <input type ="text" name="name" placeholder="Ім'я" required>
-    		<br><br>
-    		<input type="email" name="email" placeholder="Емейл" required>
-    		<br><br>
-        	<textarea cols="30" rows="5" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
-        	<br><br>
-            <input type="submit" value="Надіслати">
-        </form>
-        <a href="#"><img src="img/mail.png" alt="mail"></a>
-        <a href="#"><img src="img/google.png" alt="google"></a>
-        <a href="#"><img src="img/vk.png" alt="vk"></a>
-        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-    </main>
-    <footer>
-        <p id="title">Мисліть глобально, дійте локально.</p>
-        <p id='copy'>&copy; 2017  ALL RIGHTS RESERVED</p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/index.css">
+        <title>eco-life</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="logo">Живіть ЕКО-логічно</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#advice">Поради</a>
+                    </li>
+                    <li>
+                        <a href="#">Цікаві відкриття</a>
+                    </li>
+                    <li>
+                        <a href="#links">Корисні посилання</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="banner">
+                <img src="img/banner.jpg" alt="nature">
+            </div>
+            <section id="text">
+                <p>Загальний опис проблем.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, 
+            vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.
+            Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. 
+            Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu.</p>
+            </section>
+            <aside>
+                <h3 class='menu'>
+                    <a name="links">Корисні посилання:</a>
+                </h3>
+                <a href="#">Куди здати відходи у Львові</a>
+                <br>
+                <br>
+                <a href="#">Найкращі екологічні дома світу</a>
+                <br>
+                <br>
+                <a href="#">Екопоселення України</a>
+                <br>
+                <br>
+            </aside>
+            <hr class="no_flows">
+            <a name="advice">
+                <h2 class="menu">Поради
+            </h2>
+            </a>
+            <hr>
+            <div class="advice">
+                <img class="icons" src="img/icon1.png" alt="bike">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+            </div>
+            <div class="advice">
+                <img class="icons" src="img/icon1.png" alt="bike">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+            </div>
+            <div class="advice">
+                <img class="icons" src="img/icon1.png" alt="bike">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+            </div>
+            <hr class="no_flows">
+            <h2 class="menu">Цікаві відкриття</h2>
+            <hr>
+            <img class="pict" src="img/worm.png" alt="worm">
+            <div class="collection-text">
+                <h3>Восковий хробак, харчується поліетиленом</h3>
+                <button>Читати далі...</button>
+            </div>
+            <hr class="no_flows">
+            <h2 class="menu">Контакти</h2>
+            <hr>
+            <form id="form" method="POST" action="https://formspree.io/julli.babenko@gmail.com">
+                <p class="menu">Зворотній зв'язок</p>
+                <br>
+                <input type="text" name="name" placeholder="Ім'я" required>
+                <br>
+                <br>
+                <input type="email" name="email" placeholder="Емейл" required>
+                <br>
+                <br>
+                <textarea cols="30" rows="5" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Надіслати">
+            </form>
+            <a href="#">
+                <img src="img/mail.png" alt="mail">
+            </a>
+            <a href="#">
+                <img src="img/google.png" alt="google">
+            </a>
+            <a href="#">
+                <img src="img/vk.png" alt="vk">
+            </a>
+            <a href="#">
+                <img src="img/facebook.png" alt="facebook">
+            </a>
+        </main>
+        <footer>
+            <p id="title">Мисліть глобально, дійте локально.</p>
+            <p id='copy'>© 2017  ALL RIGHTS RESERVED</p>
+        </footer>
+    </body>
 </html>

@@ -1,6 +1,6 @@
 
 body {
-	width: 900px;
+	max-width: 900px;
 	border: 1px solid black;
 	margin: 0 auto;
 	font-size: 16px;
@@ -38,6 +38,14 @@ nav li a{
 nav li a:hover{
     background-color: green;
 	color: white;
+}
+#banner{
+    width: 100%;
+   
+}
+#banner img{
+    width: 100%;
+    margin: 0 auto;
 }
 #text{
     float: left;
