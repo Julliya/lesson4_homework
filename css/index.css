@@ -72,9 +72,9 @@ main{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: spase-between;
-        -ms-flex-pack: spase-between;
-            justify-content: spase-between;
+    -webkit-box-pack: space-between;
+        -ms-flex-pack: space-between;
+            justify-content: space-between;
 }
 #main-text{
     width: 65%;
