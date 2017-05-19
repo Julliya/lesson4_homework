@@ -7,10 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet"  media="(min-width: 571px)" href="css/index-lg.css">
+        <link rel="stylesheet"  media="(max-width: 570px)" href="css/index-sm.css">
         <title>eco-life</title>
     </head>
     <body>
-        <div id="all">
+        
             <!--beginning of header-->
             <header>
                 <nav>
@@ -48,7 +50,7 @@
                     </div>
                     <aside>
                         <section id="links">
-                            <h3 class="menu">Корисні посилання: </h3>
+                            <h3 class="">Корисні посилання: </h3>
                             <div id="list">
                                 <ul>
                                     <li>
@@ -72,9 +74,7 @@
                 <!--end of introduction-->
                 <!--beginning of advice-->
                 <section id="advice">
-                    <hr class="no_flows">
                     <h2 class="menu">Поради</h2>
-                    <hr>
                     <div class="collection-advice">
             			<div class="collection-advice-item">
             				<div class="advice-img">
@@ -150,9 +150,7 @@
                 <!--end of advice-->
                 <!--beginning of discovery-->
                 <section id="discovery">
-                    <hr class="no_flows">
                     <h2 class="menu">Цікаві відкриття</h2>
-                    <hr>
                     <div id="news">
                         <div class="collection-news">
                 			<div class="collection-news-item">
@@ -172,7 +170,7 @@
                 					</p>
                 				</div>	
                 				<div class="news-button">
-                					<button>Читати більше...</button>
+                					<button class="key">Читати більше...</button>
                 				</div>
                 			</div>
                 		</div>
@@ -195,7 +193,7 @@
                 					</p>
                 				</div>	
                 				<div class="news-button">
-                					<button>Читати більше...</button>
+                					<button class="key">Читати більше...</button>
                 				</div>
                 			</div>
                 		</div>
@@ -216,7 +214,7 @@
                 					</p>
                 				</div>	
                 				<div class="news-button">
-                					<button>Читати більше...</button>
+                					<button class="key">Читати більше...</button>
                 				</div>
                 			</div>
                 		</div>
@@ -225,35 +223,35 @@
                 <!--end of discovery-->
                 <!--beginning of contacts-->
                 <section id="contacts">
-                    <hr class="no_flows">
                     <h2 class="menu">Контакти</h2>
-                    <hr>
-                    <form id="form" method="POST" action="https://formspree.io/julli.babenko@gmail.com">
-                        <p class="menu">Зворотній зв'язок</p>
-                        <br>
-                        <input type="text" name="name" placeholder="Ім'я" required>
-                        <br>
-                        <br>
-                        <input type="email" name="email" placeholder="Емейл" required>
-                        <br>
-                        <br>
-                        <textarea cols="30" rows="5" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
-                        <br>
-                        <br>
-                        <input type="submit" value="Надіслати">
-                    </form>
-                    <a href="#">
-                        <img src="img/mail.png" alt="mail">
-                    </a>
-                    <a href="#">
-                        <img src="img/google.png" alt="google">
-                    </a>
-                    <a href="#">
-                        <img src="img/vk.png" alt="vk">
-                    </a>
-                    <a href="#">
-                        <img src="img/facebook.png" alt="facebook">
-                    </a>
+                       <form id="form" method="POST" action="https://formspree.io/julli.babenko@gmail.com">
+                            <h3>Зворотній зв'язок</h3>
+                            
+                            <input type="text" name="name" placeholder="Ім'я" required>
+                            <br>
+                            <br>
+                            <input type="email" name="email" placeholder="Емейл" required>
+                            <br>
+                            <br>
+                            <textarea cols="30" rows="5" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
+                            <br>
+                            <br>
+                            <input class="key" type="submit" value="Надіслати">
+                        </form>
+                    <div id="social-networks">
+                        <a href="#">
+                            <img src="img/mail.png" alt="mail">
+                        </a>
+                        <a href="#">
+                            <img src="img/google.png" alt="google">
+                        </a>
+                        <a href="#">
+                            <img src="img/vk.png" alt="vk">
+                        </a>
+                        <a href="#">
+                            <img src="img/facebook.png" alt="facebook">
+                        </a>
+                    </div>
                 </section>
             </main>
             <footer>
@@ -261,7 +259,6 @@
                 <p id='copy'>© 2017  ALL RIGHTS RESERVED</p>
             </footer>
             <!--end of main-->
-        </div>
         <script src='//code.jquery.com/jquery-3.2.1.min.js'></script>
         <script src='js/index.js'></script>
     </body>
