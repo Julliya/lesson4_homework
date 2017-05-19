@@ -224,16 +224,15 @@
                 <!--beginning of contacts-->
                 <section id="contacts">
                     <h2 class="menu">Контакти</h2>
-                       <form id="form" method="POST" action="https://formspree.io/julli.babenko@gmail.com">
+                       <form>
                             <h3>Зворотній зв'язок</h3>
-                            
-                            <input type="text" name="name" placeholder="Ім'я" required>
+                            <input type="text" id="clientName" placeholder="Ім'я" required>
                             <br>
                             <br>
-                            <input type="email" name="email" placeholder="Емейл" required>
+                            <input type="email" id="email" placeholder="Емейл" required>
                             <br>
                             <br>
-                            <textarea cols="30" rows="5" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
+                            <textarea cols="30" rows="5" id="comment" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
                             <br>
                             <br>
                             <input class="key" type="submit" value="Надіслати">
@@ -261,5 +260,6 @@
             <!--end of main-->
         <script src='//code.jquery.com/jquery-3.2.1.min.js'></script>
         <script src='js/index.js'></script>
+        <script src='js/form.js'></script>
     </body>
 </html>

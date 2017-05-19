@@ -220,7 +220,7 @@ form{
 	text-align: center;
 	background-color: #feffd7;
     width:300px;
-    border:1px solid black;
+    border:1px solid rgba( 7, 58, 11, 0.2);
 }
 form h3{
 	color:#063d04;
