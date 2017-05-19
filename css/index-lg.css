@@ -1,4 +1,20 @@
-body{
+body {
     max-width: 900px;
-	margin: 0 auto;
+    margin: 0 auto;
+}
+
+.menu {
+    font-size: 2rem;
+}
+
+#first-text {
+    width: 60%;
+}
+
+#motto {
+    font-size: 1.4rem;
+}
+
+#copy {
+    font-size: 0.6rem;
 }

@@ -1,9 +1,33 @@
 body {
     width: 100%;
-	min-width: 260px;
+    min-width: 260px;
 }
-nav ul{
-	
-	display: none;
-  
+
+nav ul {
+    display: none;
+}
+
+.menu {
+    font-size: 1.5rem;
+}
+
+#first-text {
+    width: 100%;
+}
+
+aside {
+    display: none;
+}
+
+.collection-news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#motto {
+    font-size: 0.8rem;
+}
+
+#copy {
+    font-size: 0.5rem;
 }
