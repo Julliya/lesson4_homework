@@ -5,7 +5,10 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" media="(min-width: 571px)" href="css/index-lg.css">
         <link rel="stylesheet" media="(max-width: 570px)" href="css/index-sm.css">
@@ -14,21 +17,28 @@
     <body>
         <!--beginning of header -->
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#advice">Поради</a>
-                    </li>
-                    <li>
-                        <a href="#discovery">Цікаві відкриття</a>
-                    </li>
-                    <li>
-                        <a href="#links">Корисні посилання</a>
-                    </li>
-                    <li>
-                        <a href="#contacts">Контакти</a>
-                    </li>
-                </ul>
+           <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand"  id="name">Живіть ЕКО-логічно</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#advice" class="smooth">Поради</a></li>
+                            <li><a href="#discovery" class="smooth">Цікаві відкриття</a></li>
+                            <li><a href="#links" class="smooth">Корисні посилання</a></li>
+                            <li><a href="#contacts" class="smooth">Контакти</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <!--beginning of main-->
@@ -215,7 +225,7 @@
                     <input type="email" id="email" placeholder="Емейл" required>
                     <br>
                     <br>
-                    <textarea cols="30" rows="5" id="comment" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
+                    <textarea cols="25" rows="5" id="comment" name="ask" placeholder="Введіть ваше повідомлення"></textarea>
                     <br>
                     <br>
                     <input type="submit" value="Надіслати">
@@ -241,8 +251,14 @@
             <p id='copy'>© 2017  ALL RIGHTS RESERVED</p>
         </footer>
         <!--end of main-->
-        <script src='//code.jquery.com/jquery-3.2.1.min.js'></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+        crossorigin="anonymous"></script>
         <script src='js/index.js'></script>
         <script src='js/form.js'></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/collapse-nav.js"></script>
     </body>
 </html>

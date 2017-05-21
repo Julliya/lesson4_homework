@@ -37,35 +37,20 @@ header {
 nav {
     width: 100%;
 }
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 0;
-    width: 100%;
+.container{
+    max-width: 900px;
 }
 
-nav li {
-    width: 24%;
-    list-style-type: none;
-    margin: 0;
-}
-
-nav li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 66px;
-    text-align: center;
-    margin: 0;
-    background-color: white;
+.navbar-header .navbar-brand,
+.navbar-header .navbar-brand:hover, 
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus
+{
     color: green;
+    background-color: white;
     font-weight: bold;
 }
-
-nav li a:hover {
+.navbar-default .navbar-nav > li > a:hover{
     background-color: rgba(0,128,0, 0.5);
     color: #feffd7;
 }

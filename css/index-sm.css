@@ -1,10 +1,6 @@
 body {
     width: 100%;
-    min-width: 260px;
-}
-
-nav ul {
-    display: none;
+    min-width: 290px;
 }
 
 .menu {
