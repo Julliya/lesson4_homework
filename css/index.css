@@ -28,11 +28,11 @@ a {
 }
 
 /*header styles*/
-header {
+/*header {
     display: flex;
     justify-content: center;
-    min-height: 50px;
-}
+   /* min-height: 50px
+}*/
 
 nav {
     width: 100%;
@@ -59,16 +59,6 @@ nav {
 main {
     display: flex;
     flex-wrap: wrap;
-}
-
-/*banner styles*/
-#banner {
-    width: 100%;
-}
-
-#banner img {
-    width: 100%;
-    margin: 0 auto;
 }
 
 /*introduction-text styles*/
