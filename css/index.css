@@ -94,13 +94,15 @@ aside {
     margin: 0.4rem;
 }
 
-#links a {
+#links a,
+#links a:focus{
     color: black;
     font-weight: bold;
     font-size: 0.8rem;
+    text-decoration: none;
 }
 
-#links a:hover {
+#links a:hover{
     color: red;
     text-decoration: none;
 }
