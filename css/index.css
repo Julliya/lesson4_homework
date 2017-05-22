@@ -190,8 +190,8 @@ aside {
 }
 
 .key{
-   /* float: right;*/
     text-align: center;
+    margin-top: 5px;
 	padding: 5px;
 	border: 1px solid transparent;
 	border-radius: 5px;

@@ -38,7 +38,6 @@ aside{
 .collection-news-item{
 	flex-wrap: wrap;
 }
-
 .news-img{
 	width: 100%;
 }
@@ -50,6 +49,7 @@ aside{
 .news-text h3{
     text-align: center;
 }
+
 /*contacts*/
 form {
     max-width: 250px;
