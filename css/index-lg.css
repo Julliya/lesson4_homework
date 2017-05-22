@@ -12,8 +12,12 @@ body {
 aside with links - styles*/
 
 #introduction{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:space-between;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 #movable-menu{
     text-align: center;
@@ -27,7 +31,9 @@ margin-right:10px;
 }
 /*news styles*/
 .collection-news-item{
-	justify-content:space-between;
+	-webkit-box-pack:justify;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
 }
 .news-img img{
 	width: 200px;
