@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    min-width: 290px;
+    min-width: 300px;
 }
 
 .menu {
@@ -11,15 +11,54 @@ body {
     width: 100%;
 }
 
-aside {
-    display: none;
-}
-
-.collection-news {
+#introduction{
     display: flex;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+aside{
+    width: 100%;
+}
+#list{
+   margin: 0 auto;
+}
+#movable-menu{
+    background-color: #063d04;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/*news*/
+
+.collection-news-item{
+	flex-wrap: wrap;
+}
+
+.news-img{
+	width: 100%;
+}
+
+.news-img img{
+	width: 100%;
+
+}
+.news-text h3{
+    text-align: center;
+}
+/*contacts*/
+form {
+    max-width: 250px;
+}
+#social-networks img {
+    max-width: 50px;
+}
+
+/*footer*/
 #motto {
     font-size: 0.8rem;
 }

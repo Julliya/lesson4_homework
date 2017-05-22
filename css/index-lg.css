@@ -1,3 +1,4 @@
+/*common styles*/
 body {
     max-width: 900px;
     margin: 0 auto;
@@ -7,9 +8,42 @@ body {
     font-size: 2rem;
 }
 
-#first-text {
-    width: 60%;
+/*main styles 
+aside with links - styles*/
+
+#introduction{
+    display: flex;
+    justify-content:space-between;
 }
+#movable-menu{
+    text-align: center;
+    padding-top: 0.2rem;
+    margin: 5px 0;
+    color: green;
+    font-weight: bold;
+}
+#links {
+margin-right:10px;
+}
+/*news styles*/
+.collection-news-item{
+	justify-content:space-between;
+}
+.news-img img{
+	width: 200px;
+	margin: 8px 10px 0px 10px;
+}
+
+/*contacts*/
+
+form {
+    max-width: 300px;
+}
+#social-networks img {
+    max-width: 60px;
+}
+    
+/*footer*/
 
 #motto {
     font-size: 1.4rem;
