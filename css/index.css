@@ -302,6 +302,11 @@ form input[type='submit'] {
     font-weight: bold;
 }
 
+#help{
+    text-align: center;
+    color: red;
+}
+
 #social-networks {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -311,8 +316,6 @@ form input[type='submit'] {
             justify-content: center;
     margin: 20px 0;
 }
-
-
 
 /*footer styles*/
 footer {

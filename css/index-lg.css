@@ -48,6 +48,10 @@ form {
 #social-networks img {
     max-width: 60px;
 }
+iframe{
+    width: 100%;
+    height: 450px; 
+}
     
 /*footer*/
 

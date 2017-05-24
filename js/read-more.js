@@ -1,30 +1,29 @@
 $(document).ready(function() {
     // Configure/customize these variables.
-    var showChar = 181;  // How many characters are shown by default
+    var showChar = 181;
+    // How many characters are shown by default
     var ellipsestext = "...";
     var moretext = "Читати більше >";
     var lesstext = "Згорнути";
-    
 
     $('.more').each(function() {
         var content = $(this).html();
- 
-        if(content.length > showChar) {
- 
+
+        if (content.length > showChar) {
+
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
- 
-            var html = c + '<span class="moreellipses">' + ellipsestext+
-            '&nbsp;</span><span class="morecontent"><span>' + h + 
+
+            var html = c + '<span class="moreellipses">' + ellipsestext + '&nbsp;</span><span class="morecontent"><span>' + h +
             '</span>&nbsp;&nbsp;<a class="morelink key">' + moretext + '</a></span>';
- 
+
             $(this).html(html);
         }
- 
+
     });
- 
-    $(".morelink").click(function(){
-        if($(this).hasClass("less")) {
+
+    $(".morelink").click(function() {
+        if ($(this).hasClass("less")) {
             $(this).removeClass("less");
             $(this).html(moretext);
         } else {
